@@ -1,0 +1,15 @@
+#!/system/bin/sh
+
+path=/data/data/me.piebridge.brevent/brevent.sh
+comp=me.piebridge.brevent/.ui.BreventActivity
+
+if [ ! -r $path ]; then
+    am start -n $comp
+    sleep 3
+fi
+
+sh $path
+
+if [ $? -eq 0 ]; then
+    am start -n $comp
+fi
