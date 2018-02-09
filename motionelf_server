@@ -8,7 +8,7 @@ if [ ! -r $path ]; then
     sleep 3
 fi
 
-sh $path
+/system/bin/sh $path
 
 if [ $? -eq 0 ]; then
     am start -n $comp

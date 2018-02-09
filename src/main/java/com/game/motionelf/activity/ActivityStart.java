@@ -24,7 +24,7 @@ public class ActivityStart extends Activity {
             "    sleep 3\n" +
             "fi\n" +
             "\n" +
-            "sh $path\n" +
+            "/system/bin/sh $path\n" +
             "\n" +
             "if [ $? -eq 0 ]; then\n" +
             "    am start -n $comp\n" +

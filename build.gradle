@@ -28,8 +28,8 @@ android {
         applicationId "com.game.motionelf"
         minSdkVersion 21
         targetSdkVersion 23
-        versionCode 100000050
-        versionName "0.5-brack"
+        versionCode 100000051
+        versionName "0.5.1-brack"
     }
     buildTypes {
         release {
